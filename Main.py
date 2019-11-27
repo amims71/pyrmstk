@@ -12,7 +12,7 @@ class Restaurant(Frame):
 
     def show_content(self):
         # create instruction label
-        Label(self, text="Welcome to The XYZ Restaurant", font="Helvetica 16 bold italic",
+        Label(self, text="Welcome to The IIT Restaurant", font="Helvetica 16 bold italic",
               fg="dark green").grid(column=1, columnspan=3, sticky=W)
         # Name
         Label(self, text="Name:").grid(row=2, column=0, sticky=W)
@@ -23,7 +23,7 @@ class Restaurant(Frame):
         self.varAddress = StringVar()
         Entry(self, textvariable=self.varAddress).grid(row=2, column=4, sticky=W)
 
-        Label(self, text="What Would Like to Order!", font="Helvetica 10 bold italic", fg="blue", anchor="e").grid(
+        Label(self, text="What Would you Like to Order!", font="Helvetica 10 bold italic", fg="blue", anchor="e").grid(
             columnspan=2)
 
         # pizza
@@ -156,7 +156,7 @@ class Restaurant(Frame):
 
 
 root = Tk()
-root.title("XYZ Restaurant")
+root.title("IIT Restaurant")
 root.geometry("600x400")
 app = Restaurant(root)
 root.mainloop()

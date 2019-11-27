@@ -1,15 +1,11 @@
-Customer Name: Nayem
-Customer Address: Dhaka
+Customer Name: 
+Customer Address: 
 --------------------------------
 
 Item-------Count--------Total
-Pizza--------1-----------500
-Burger-------1-----------200
-Sandwich-----2-----------200
-Drinks-------2-----------200
 Delivery Fee:------------50
-Discount:----------------40
+Discount:----------------0
 
 
 -----------------------------
-Total-------------------1110
+Total-------------------50
